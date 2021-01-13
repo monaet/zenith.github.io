@@ -1,0 +1,98 @@
+body {
+    background-color: #f4f1de;
+    color: #3d405b;
+}
+
+header {
+    margin-bottom: 10px;
+}
+
+h1 {
+    color: #e07a5f;
+    font-family: Futura, sans-serif;
+    width: 100px;
+}
+
+h1:hover {
+    color: #3d405b;
+}
+
+p {
+    width: 800px;
+    border-radius: 5px;
+    padding: 7px;
+    margin: 17px 0;
+}
+
+#one {
+    border: 1px solid #f2cc8f;
+}
+
+#two {
+    border: 1px solid #81b29a;
+}
+
+#three {
+    border: 1px solid #e07a5f;
+}
+
+#four {
+    border: 1px solid #3d405b;
+}
+
+#one:hover, #two:hover, #three:hover, #four:hover {
+    border-top: 1px solid #3d405b;
+    border-left: 1px solid #f2cc8f;
+    border-right: 1px solid #e07a5f;
+    border-bottom: 1px solid #81b29a;
+    transition: 0.5s ease-in 0.3s;
+}
+
+button {
+    color: #f2cc8f;
+    background-color: #81b29a;
+    border: none;
+    padding: 0px 0px;
+}
+
+button:hover {
+    background-color: #3d405b;
+    color: rgba(242, 204, 143, 0.5);
+    opacity: 0.8;
+}
+
+nav button {
+    display: inline-block;
+    background-color: #3d405b;
+    position: relative;
+}
+
+nav button:hover {
+    color: #f2cc8f;
+    opacity: 1;
+}
+
+#login {
+    top: 0px;
+    left: 0px;
+}
+
+#signup {
+    top: -150px;
+    left: 1060px;
+}
+
+#right {
+    border-top: 1px solid #3d405b;
+    border-left: 1px solid #f2cc8f;
+    border-right: 1px solid #e07a5f;
+    border-bottom: 1px solid #81b29a;
+    border-radius: 5px;
+    padding: 40px;
+    width: 250px;
+    height: 662px;
+    display: inline-block;
+    position: absolute;
+    top: 205px;
+    left: 840px;
+}
