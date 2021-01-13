@@ -1,98 +1,72 @@
 body {
-    background-color: #f4f1de;
-    color: #3d405b;
+    background-color: #f4f3ee;
 }
 
-header {
-    margin-bottom: 10px;
+section {
+    width: 85%;
+    margin: 0 auto;
 }
 
-h1 {
-    color: #e07a5f;
-    font-family: Futura, sans-serif;
-    width: 100px;
+img {
+    width: 30%;
+    height: 20%;
+    margin: 1.6%;
+    filter: grayscale(100%);
+    box-shadow: 0.6vmin 0.6vmin 0 #D53A33, 1vmin -0.5vmin 0 #E79C10;
+    
 }
 
-h1:hover {
-    color: #3d405b;
+img:hover {
+    filter: none;
+    cursor: pointer;
+}
+
+section {
+    padding-top: 0;
 }
 
 p {
-    width: 800px;
-    border-radius: 5px;
-    padding: 7px;
-    margin: 17px 0;
+    text-transform: uppercase;
+    width: 8%;
+    margin: 0 3%;
+    font-size: 2.9em;
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-weight: 700;
+    padding-top: 3.5%;
+    padding-bottom: 2%;
+      color: #1d9099;
+  text-shadow: 1vmin 1vmin 0 #E79C10, -1vmin -1vmin 0 #D53A33;
+transition: color 0.5s ease-out, text-shadow 0.5s ease-out;
+
 }
 
-#one { 
-    border: 1px solid #f2cc8f;
+p:hover {
+    color: #D53A33;
+    text-shadow: 1vmin 1vmin 0 #1d9099, -1vmin -1vmin 0 #E79C10;
+    cursor: pointer;
 }
 
-#two {
-    border: 1px solid #81b29a;
-}
-
-#three {
-    border: 1px solid #e07a5f;
-}
-
-#four {
-    border: 1px solid #3d405b;
-}
-
-#one:hover, #two:hover, #three:hover, #four:hover {
-    border-top: 1px solid #3d405b;
-    border-left: 1px solid #f2cc8f;
-    border-right: 1px solid #e07a5f;
-    border-bottom: 1px solid #81b29a;
-    transition: 0.5s ease-in 0.3s;
-}
-
-button {
-    color: #f2cc8f;
-    background-color: #81b29a;
-    border: none;
-    padding: 0px 0px;
-}
-
-button:hover {
-    background-color: #3d405b;
-    color: rgba(242, 204, 143, 0.5);
-    opacity: 0.8;
-}
 
 nav button {
     display: inline-block;
-    background-color: #3d405b;
+    color: #D53A33; 
+    background-color: #dad7cd;
+    padding: 6px 13px;
     position: relative;
+    border: 0.5px solid #1d9099;
 }
 
 nav button:hover {
-    color: #f2cc8f;
+    background-color: #E79C10;
     opacity: 1;
 }
 
 #login {
-    top: 0px;
-    left: 0px;
+    top: -90px;
+    left: 86%;
 }
 
 #signup {
-    top: -150px;
-    left: 1060px;
-}
-
-#right {
-    border-top: 1px solid #3d405b;
-    border-left: 1px solid #f2cc8f;
-    border-right: 1px solid #e07a5f;
-    border-bottom: 1px solid #81b29a;
-    border-radius: 5px;
-    padding: 40px;
-    width: 250px;
-    height: 662px;
-    display: inline-block;
-    position: absolute;
-    top: 205px;
-    left: 840px;
+    top: -90px;
+    left: 86%;
 }
